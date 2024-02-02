@@ -6,18 +6,20 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
+
+
 model = load_model(r'C:\Python\Stock\Stock Predictions Model.keras')
 
 st.header('Stock Market Predictor')
 
 stock = st.text_input('Enter Stock Symnbol', 'AAPL')
-start = '2012-01-01'
-end = '2022-12-31'
+start = '2013-01-01'
+end = '2023-12-31'
 
 data = yf.download(stock, start, end)
 
-st.subheader('Stock Data')
-st.write(data)
+st.subheader('Stock Data From 2013 to 2023')
+st.write(data.describe())
 
 data_train = pd.DataFrame(data.Close[0: int(len(data)*0.80)])
 data_test = pd.DataFrame(data.Close[int(len(data)*0.80): len(data)])

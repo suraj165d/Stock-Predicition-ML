@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stApp {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.stApp header {
+    background-color: #3498db;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.stApp h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.stApp h2 {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.stApp p {
+    line-height: 1.6;
+}
+
+.stApp input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.stApp warning {
+    color: #dc3545;
+}
+
+.stApp figcaption {
+    text-align: center;
+}
+
+.stApp .element-container {
+    margin: 1.5rem 0;
+}
+
+.stApp .element-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stApp .element-container p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.stApp .stTable {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.stApp .stTable th, .stApp .stTable td {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+}
+
+.stApp .stTable th {
+    background-color: #3498db;
+    color: white;
+}
+
+.stApp .stTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stApp .stButton {
+    background-color: #3498db;
+    color: white;
+}
+
+.stApp .stButton:hover {
+    background-color: #007bff;
+}
+
+.stApp .stException {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
