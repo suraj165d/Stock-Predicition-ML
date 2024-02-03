@@ -12,7 +12,9 @@ st.set_page_config(
     page_icon="📊", 
 )
 
-model = load_model(r'C:\Python\Stock\Stock Predictions Model.keras')
+# model = load_model(r'C:\Python\Stock\Stock Predictions Model.keras')
+model = load_model('models/Stock Predictions Model.keras')
+
 
 st.header('Stock Market Predictor')
 
