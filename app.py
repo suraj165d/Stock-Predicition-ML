@@ -6,11 +6,24 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
-
+# Set page title and icon
+st.set_page_config(
+    page_title="Stock Market Predictor",
+    page_icon="📊", 
+)
 
 model = load_model(r'C:\Python\Stock\Stock Predictions Model.keras')
 
 st.header('Stock Market Predictor')
+
+
+
+# Your Streamlit app code goes here
+# st.title("Hello Streamlit!")
+# st.write("This is a simple Streamlit app.")
+
+
+
 
 stock = st.text_input('Enter Stock Symnbol', 'AAPL')
 start = '2013-01-01'
