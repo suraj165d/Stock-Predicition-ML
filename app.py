@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Set page title and icon
 st.set_page_config(
-    page_title="Stock Market Predictor",
+    page_title="Trade With Faith",
     page_icon="📊", 
 )
 
