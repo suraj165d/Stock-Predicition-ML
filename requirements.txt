@@ -6,3 +6,4 @@ keras
 streamlit
 matplotlib
 scikit-learn
+streamlit_extras==0.2.4
